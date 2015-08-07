@@ -1,0 +1,17 @@
+Hello Bokken enthusiasts!
+
+hereby some instruction on howto build the Windows installer for Bokken:
+
+1. Install Inno Setup 5.5.5
+2. Open bokken-installer-win-v9.iss
+3. Hit CTRL+F9 to start making the setup
+
+More details about the installer's code is commented inside the installation script:
+
+If there's anything you would like to know more you can contact me:
+
+HcHTechKnow@outlook.com or hardcorehacker112@hotmail.com
+
+Cheers,
+
+HcH
