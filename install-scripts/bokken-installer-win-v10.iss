@@ -70,10 +70,10 @@ var
   ErrorCode: Integer;
 
 begin
-  MsgResult := SuppressibleMsgBox('About to install PyGTK, CHECK COMPONENT "GtkSourceView2" IN THE INSTALLER!', mbConfirmation, MB_YESNO, IDYES);
+  MsgResult := SuppressibleMsgBox('About to install PyGTK.', mbConfirmation, MB_YESNO, IDYES);
   if MsgResult = IDYES then
   begin
-  ShellExec('', 'msiexec', ExpandConstant('/I "{tmp}\pygtk-all-in-one-2.24.2.win32-py2.7.msi"'), '', SW_SHOWNORMAL, ewWaitUntilTerminated, ErrorCode);
+  ShellExec('', 'msiexec', ExpandConstant('/I "{tmp}\pygtk-all-in-one-2.24.2.win32-py2.7.msi" INSTALLLEVEL=2'), '', SW_SHOWNORMAL, ewWaitUntilTerminated, ErrorCode);
   end
   else
   if MsgResult = IDNO then
