@@ -1,4 +1,4 @@
-Hello Bokken enthusiasts!
+Hello Bokken enthusiasts,
 
 hereby the instructions on howto build the Windows installer for Bokken:
 

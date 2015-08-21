@@ -1,5 +1,5 @@
 [Setup]
-AppName=Bokken Win32
+AppName=Bokken
 AppVersion=1.8
 DefaultDirName={pf}\Bokken
 DefaultGroupName=Bokken
