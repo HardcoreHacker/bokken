@@ -15,7 +15,7 @@ hereby the instructions on howto build the Windows installer for Bokken:
 {scriptroot} bokken-installer-win-logo-v2.bmp ; the main image of the installer
 {scriptroot} bokken-installer-win-v10.iss ; the inno setup script
 {scriptroot} bokken-installer-win\site-packages ; additional python packages
-{scriptroot} bokken-installer-win\bokken-1.8 ; bokken itself, note that there were a few fixes applied to these files in order to make it work under Windows
+{scriptroot} bokken-installer-win\bokken ; bokken itself, note that there were a few fixes applied to these files in order to make it work under Windows
 
 
 ** A few more things to notice **
