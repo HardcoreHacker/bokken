@@ -20,7 +20,8 @@
 from __future__ import print_function
 import os
 
-import gtk, pango
+import gtk
+import pango
 import gtksourceview2
 
 import ui.sections_bar as sections_bar
@@ -102,8 +103,8 @@ class RightTextView(gtk.VBox, Searchable):
         self.right_scrolled_window.show()
         # Add Textview to Scrolled Window
         self.right_scrolled_window.add(self.view)
-        self.hbox.pack_start(self.right_scrolled_window, expand=True, fill=True)
-        self.pack_start(self.hbox, expand=True, fill=True)
+        self.hbox.pack_start(self.right_scrolled_window, True, True, 0)
+        self.pack_start(self.hbox, True, True, 0)
 
         # Create the search widget
         Searchable.__init__(self, self.view, small=True)
